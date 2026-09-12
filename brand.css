@@ -1,0 +1,56 @@
+/* Brandbook application: supplied artwork stays byte-for-byte intact. */
+:root{--bg:#F5F3EF;--paper:#F5F3EF;--ink:#000;--line:#cccac5;--muted:#595959}
+body{background:#F5F3EF;color:#000;font-family:Inter,"Helvetica Neue",Arial,sans-serif}
+.header-shell{background:#F5F3EF;border-bottom:1px solid #cccac5;backdrop-filter:none}
+.logo,.display,.work h3,.service h3,.step h3{font-family:"Helvetica Now Display","Arial Black",Arial,sans-serif;font-weight:900}
+.logo{letter-spacing:-.07em}
+.section-head h2,.transform-heading h2,.services h2,.video-copy h2,.case h2,.process h2,.about h2,.final-cta h2{text-transform:uppercase;letter-spacing:-.045em}
+.section-head h2,.about h2{font-size:clamp(36px,3.8vw,55px)}
+.eyebrow{color:#595959;font-weight:700}
+.stroke{background:currentColor;opacity:.7}
+.hero-principle p{font-family:Inter,Arial,sans-serif;font-style:normal;font-weight:700;line-height:1.45;font-size:14px}
+.hero-principle .brand-sign{width:54px;height:54px;flex:none;border-radius:50%;object-fit:contain}
+.hero-principle{border-top:1px solid #bdbbb6}
+.hero-photo,.about-photo{border-radius:6px;border-color:#cccac5}
+.btn,.menu-toggle,.sticky-mobile a{border-radius:3px;box-shadow:none}
+.btn{font-weight:800}
+.btn.dark,.sticky-mobile a{background:#000;color:#fff}
+.btn:hover{transform:none}
+.btn:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #777;outline-offset:5px}
+.hero-actions .btn:first-child{position:relative}
+.hero-actions .btn:first-child:after{content:"";position:absolute;bottom:8px;left:22px;right:22px;height:2px;background:currentColor;opacity:.45;transform:rotate(-1deg)}
+.dark,.video-section,.atelier-case,.final-cta{background:#000}
+.dark .eyebrow,.video-section .eyebrow,.atelier-case .eyebrow,.final-cta .eyebrow{color:#bdbdbd!important}
+.transform,.services,.process,.about,.raz-case{background:#F5F3EF}
+.work{background:#090909;border:1px solid #373737;border-radius:6px}
+.work-preview,.comparison-cover,.work img{border-radius:2px}
+.comparison-cover{background:transparent}
+.work p{color:#bbb}
+.tag,.pill{border-radius:2px;letter-spacing:.06em}
+.tag.real{background:#F5F3EF;color:#000}
+.work .circle{border-radius:50%;border-color:#777}
+.asset-pending,.source-sheet,.flow-card,.raz-mosaic figure,.contact-panel{border-radius:4px}
+.asset-pending,.flow-card{background:transparent}
+.source-sheet,.raz-mosaic figure{background:#eeece7;border-color:#cccac5}
+.raz-mosaic .cap{color:#424242}
+.source-sheet .sheet-title{color:#424242}
+.source-link{color:inherit;text-decoration-thickness:1px}
+.service .num,.step .stepnum{font-family:Arial,sans-serif;font-weight:800;color:#000}
+.step .stepnum{width:28px;height:28px;display:grid;place-items:center;background:#000;color:#F5F3EF;font-size:13px}
+.process-head h2,.services-head h2{position:relative;padding-bottom:14px}
+.process-head h2:after,.services-head h2:after{content:"";position:absolute;bottom:0;left:0;width:88px;height:3px;background:currentColor;transform:rotate(-1deg)}
+.process-head>p{font-family:Inter,Arial,sans-serif;font-style:normal;font-size:16px;line-height:1.5}
+.pill{font-size:11px;border-color:#9a9a9a}
+.brand-banner img{border-radius:2px}
+.contact-panel{background:#111;border:1px solid #444}
+.contact-help,#copy-status{color:#c5c5c5}
+.footer{color:#595959;border-color:#cccac5;background:#F5F3EF}
+.footer .brand-sign{width:46px;height:46px;border-radius:50%;object-fit:contain}
+.video-player video{border-radius:6px}
+@media(max-width:700px){
+ .section-head h2,.about h2,.video-copy h2,.final-cta h2{font-size:clamp(29px,8.2vw,34px);line-height:1.08}
+ .hero-principle .brand-sign{width:44px;height:44px}
+ .hero-principle p{font-size:13px}
+ .hero-photo,.about-photo{border-radius:4px}
+ .process-head>p{font-size:15px}
+}
